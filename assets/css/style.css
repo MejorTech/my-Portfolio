@@ -1,0 +1,110 @@
+/*=========== Font ============  */
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,300&display=swap'); 
+
+
+ /* ========= Base ======== */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .container{ 
+    /*  max-width: 1024px; */
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+  
+  .section {
+    padding: 4.5rem 0 2rem; 
+  }
+  
+
+/*=========== header ============  */
+.header{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5rem;
+    z-index: 1;
+}
+
+.logo-div{ 
+    margin-left: 7rem;
+    width: 120px;
+}
+
+
+
+.logo_img{ 
+    width: 100%;
+}
+
+.nav_list{ 
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+.nav_item a{ 
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    transition: .3s;
+}
+
+.nav_item a:hover{ 
+    color: #FD562A;
+}
+
+/*=========== Home ============  */
+.home{ 
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('assets\images\partner_logo_1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+
+.home_container{ 
+
+    
+}
+ 
+
